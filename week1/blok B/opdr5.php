@@ -4,7 +4,8 @@ if (isset($_GET["getal"]) and isset($_GET["begin"]) and isset($_GET["eind"])) {
     $tafel = $_GET["getal"];
     $eind = $_GET["eind"];
 
-    for($begin = $_GET["begin"]; $begin <= $eind; $begin++){
+    for($begin = $_GET["begin"]; $begin <= $eind; $begin++)
+        {
         $render .= $tafel . " x " . $begin . " = " . $tafel * $begin . "<br>";
     }
 }
