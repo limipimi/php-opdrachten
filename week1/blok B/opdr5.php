@@ -19,7 +19,7 @@ if (isset($_GET["getal"]) and isset($_GET["begin"]) and isset($_GET["eind"])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>simsalabim</title>
+    <title>opdracht 5</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 
